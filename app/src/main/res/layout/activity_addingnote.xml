@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_activity_main"
+    >
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtxtTitle"
+        android:backgroundTint="@color/dark_background_activity_main"
+        android:maxLength="50"
+        android:textSize="20sp"
+        android:cursorVisible="false"
+        android:textColorHighlight="@color/black"
+        android:textStyle="bold"
+        android:hint="Enter Title"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="5dp"
+        android:hint="Enter Note"
+        android:cursorVisible="true"
+        android:background="@color/background_activity_main"
+        android:layout_marginTop="8dp"
+        android:id="@+id/edtxtBody"
+        android:layout_below="@+id/edtxtTitle"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAdd"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="21dp"
+        android:text="Add"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/dark_background_activity_main"
+        />
+
+</RelativeLayout>
